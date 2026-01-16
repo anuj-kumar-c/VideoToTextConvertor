@@ -45,7 +45,7 @@ def video_to_english_transcript(video_path, ffmpeg_cmd):
     return transcript
 
 # Streamlit UI
-st.title("🎥 Video to English Transcript")
+st.title("Video to English Transcript")
 st.write("Upload a video file to extract and translate its audio into English.")
 
 uploaded_file = st.file_uploader("Upload Video", type=["mp4", "mkv", "avi"])
